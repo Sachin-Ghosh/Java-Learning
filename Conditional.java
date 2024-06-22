@@ -14,21 +14,32 @@ class Conditional {
         //     System.out.println(y + "is greater than" + x);   
         // }
 
-        int x = 3;
-        int y = 6;
-        int z = 9;
+        // int x = 3;
+        // int y = 6;
+        // int z = 9;
 
-        if(x>y && x>z)
-        {
-            System.out.println("x is the greatest number");
-            System.out.println("True");
-            }
-        else if(y>z)
-        {
-            System.out.println("y is the greatest number");
-            System.out.println("True");
-            }
+        // if(x>y && x>z)
+        // {
+        //     System.out.println("x is the greatest number");
+        //     System.out.println("True");
+        //     }
+        // else if(y>z)
+        // {
+        //     System.out.println("y is the greatest number");
+        //     System.out.println("True");
+        //     }
+        // else
+        //     System.out.println("z is the greatest number");
+
+
+        int n = 3;
+        int result = 0;
+
+
+        result = n%2==0 ? 1 : 0 ;
+        if(result==1)
+        System.out.println("The number is Even" );
         else
-            System.out.println("z is the greatest number");
+        System.out.println("The number is Odd" );
  }
 }
