@@ -15,11 +15,11 @@ class Switch {
         String day = "Monday";
         String result = "";
 
-        // switch(day){
-        //     case "Monday","Thursday" -> result = "2";
-        //     case "Tuesday" -> result = "3";
-        //     default -> result = "1";
-        // }
+        switch(day){
+            case "Monday","Thursday" -> result = "2";
+            case "Tuesday" -> result = "3";
+            default -> result = "1";
+        }
 
 
         // result = switch(day){
@@ -28,11 +28,11 @@ class Switch {
         //     default -> "1";
         // };
 
-        result = switch(day){
-            case "Monday","Thursday" : yield  "2";
-            case "Tuesday" : yield  "3";
-            default : yield "1";
-        };
+        // result = switch(day){
+        //     case "Monday","Thursday" : yield  "2";
+        //     case "Tuesday" : yield  "3";
+        //     default : yield "1";
+        // };
 
         System.err.println(result);
     
